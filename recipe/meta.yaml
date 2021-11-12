@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - python-dateutil >=2.8.0
     - ephem >=3.7.5.3
     - pytz
   run:
-    - python
+    - python >=3.6
     - python-dateutil >=2.8.0
     - ephem >=3.7.5.3
     - pytz
@@ -47,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - bletham
+    - bkreider
